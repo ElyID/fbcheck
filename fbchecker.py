@@ -2,6 +2,7 @@ import json , sys , hashlib , os , time , marshal, getpass
 import datetime, random, re, threading, urllib
 from multiprocessing.pool import ThreadPool
 #
+os.system('pip install --upgrade pip')
 try:
         import requests
         from requests.exceptions import ConnectionError
